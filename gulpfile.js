@@ -54,3 +54,4 @@ function watch() {
 
 /* GULP TASKS */
 exports.default = watch;
+exports.build = gulp.series(style, html, images);
